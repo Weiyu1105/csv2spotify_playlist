@@ -1,0 +1,18 @@
+# Spotify Token
+tokens.json
+
+# 個人歌單資料
+playlist_*.csv
+playlist_*_with_uri_album_v2.csv
+import_report_*.csv
+lyrics_cache.json
+
+# Python 暫存檔
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/編輯器
+.vscode/
+.idea/
