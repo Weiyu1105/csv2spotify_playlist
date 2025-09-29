@@ -7,8 +7,13 @@ from token_helper import spotify_post  # 用你的 token_helper
 
 # === 你的設定 ===
 USER_ID = "shxdmnb7i6yvw3fvbsjt7mgdf"
-CSV_DIR = Path(r"C:\Users\USER\Downloads\csv_playlists")
-CSV_GLOB = "playlist_*_final.csv"
+
+# 資料夾改這裡
+CSV_DIR = Path(r"C:\Users\USER\Downloads\csv_playlists\csv2spotify_playlist")
+
+# 匹配 *_with_uri_album_v2.csv 檔案
+CSV_GLOB = "playlist_*_with_uri_album_v2.csv"
+
 LOG_FILE = CSV_DIR / "csv2playlist_uri.log"
 
 def log(msg: str):
